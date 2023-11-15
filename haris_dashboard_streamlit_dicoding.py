@@ -25,7 +25,6 @@ def create_rfm_df(df):
     return rfm_df
 
 # Load cleaned data
-os.chdir('D:\Documents\Graduate\Projects\Dicoding\Analisis Data dengan Python\E-Commerce Public Dataset')
 main_df = pd.read_csv("main_data.csv")
 
 datetime_columns = ["order_purchase_timestamp", "order_approved_at","order_delivered_carrier_date","order_delivered_customer_date"]
@@ -112,47 +111,6 @@ with tab3:
     
     st.pyplot(fig3)
 
-# col1, col2, col3 = st.columns(3)
-
-# with col1:
-#     avg_recency = round(rfm_df["recency"].mean(), 1)
-#     st.metric("Average Recency (days)", value=avg_recency)
-
-# with col2:
-#     avg_frequency = round(rfm_df.frequency.mean(), 2)
-#     st.metric("Average Frequency", value=avg_frequency)
-
-# with col3:
-#     avg_monetary = format_currency(rfm_df.monetary.mean(), 'BRL', locale='pt_BR')
-#     st.metric("Average Monetary", value=avg_monetary)
-
-# fig, ax = plt.subplots(nrows=1, ncols=3, figsize=(50, 15))
-
-# sns.barplot(x="recency", y="customer_id", data=rfm_df.sort_values(by="recency", ascending=True).head(5), ax=ax[0], orient='h')
-# ax[0].set_xlabel('Days')
-# ax[0].set_ylabel("customer_id", fontsize=30)
-# ax[0].bar_label(ax[0].containers[0], rotation=0, fontsize=30)
-# ax[0].set_title("By Recency (days)", loc="center", fontsize=50)
-# ax[0].tick_params(axis='y', labelsize=30)
-# ax[0].tick_params(axis='x', labelsize=30)
-
-# sns.barplot(x="frequency", y="customer_id", data=rfm_df.sort_values(by="frequency", ascending=False).head(5), ax=ax[1], orient='h')
-# ax[1].set_xlabel('Frequency')
-# ax[1].set_ylabel("customer_id", fontsize=30)
-# ax[1].bar_label(ax[1].containers[0], rotation=0, fontsize=30)
-# ax[1].set_title("By Frequency", loc="center", fontsize=50)
-# ax[1].tick_params(axis='y', labelsize=30)
-# ax[1].tick_params(axis='x', labelsize=30)
-
-# sns.barplot(x="monetary", y="customer_id", data=rfm_df.sort_values(by="monetary", ascending=False).head(5), ax=ax[2], orient='h')
-# ax[2].set_xlabel('Transaction Value')
-# ax[2].set_ylabel("customer_id", fontsize=30)
-# ax[2].bar_label(ax[2].containers[0], rotation=0, fontsize=30)
-# ax[2].set_title("By Monetary", loc="center", fontsize=50)
-# ax[2].tick_params(axis='y', labelsize=30)
-# ax[2].tick_params(axis='x', labelsize=30)
-
-# st.pyplot(fig)
 
 st.caption('Copyright © Haris Yafie 2023')
 
