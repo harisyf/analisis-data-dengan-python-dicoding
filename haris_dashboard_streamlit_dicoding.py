@@ -27,7 +27,7 @@ def create_rfm_df(df):
 # Load cleaned data
 main_df = pd.read_csv("main_data.csv")
 
-datetime_columns = ["order_purchase_timestamp", "order_approved_at","order_delivered_carrier_date","order_delivered_customer_date"]
+datetime_columns = ["order_purchase_timestamp", "order_approved_at"]
 main_df.sort_values(by="order_approved_at", inplace=True)
 main_df.reset_index(inplace=True)
 
