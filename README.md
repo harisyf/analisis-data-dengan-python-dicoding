@@ -1,6 +1,6 @@
 # RFM Analysis In Brazilian E-Commerce
 
-Hello and welcome to my RFM analysis project. This project used dataset that available on [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) website.  Feel free to explore my project. If you have any further discussion or suggestion you can reach me on:
+Hello and welcome to my RFM analysis project. This project used dataset that available on [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) website.  Feel free to explore my project. You can also visit the web app of this project dashboard in this [[link]](https://rfm-analysis-in-ecommerce-dashboard-haris.streamlit.app/). If you have any further discussion or suggestion you can reach me on:
 
 E-mail : yafie345@gmail.com
 
@@ -27,7 +27,7 @@ LinkedIn : [Haris Yafie](https://www.linkedin.com/in/haris-yafie/)
   The aim of this project is to find out customer segmentation insights based on order recency, orders, frequency and transaction value as well as to get other insights such as the distribution of customers when they last placed an order, customer orders and transaction value. Therefore, I carry out data analysis using Recency, Frequency, and Monetary Analysis (RFM) so that I can conclude information to help in decision making.
 
   # Method
-  The method I used in this project was Exploratory Data Analysis (EDA) by analyzing the data and visualizing it to gain a better understanding. The features of the dataset I use are order ID, customer ID, approved orders, and payment value.
+  The method I used in this project was Exploratory Data Analysis (EDA) by analyzing the data and visualizing it to gain a better understanding. The features of the dataset I use are order ID, customer ID, approved orders, and payment value. I also create a dashboard using Streamlit to show the data visualization on [web app](https://rfm-analysis-in-ecommerce-dashboard-haris.streamlit.app/).
 
   # Conclusion
   After analyzing the data, I can draw conclusions based on the results of the analysis to help answer the questions I raised.
