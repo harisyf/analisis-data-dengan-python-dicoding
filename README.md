@@ -25,10 +25,10 @@ LinkedIn : [Haris Yafie](https://www.linkedin.com/in/haris-yafie/)
   5. Which month has the highest total and average transaction value?
 
   # Objective
-  The objectives of the project are to know the insight of customer segmentation based on order recency, order, frequency, and transaction value also to gain another insight such as the distribution of customers the last time they placed an order, customer orders, and transaction value. Therefore, I carry out data analysis using Recency, Frequency, and Monetary Analysis (RFM) so that I can conclude information to help in decision making.
+  The aim of this project is to find out customer segmentation insights based on order recency, orders, frequency and transaction value as well as to get other insights such as the distribution of customers when they last placed an order, customer orders and transaction value. Therefore, I carry out data analysis using Recency, Frequency, and Monetary Analysis (RFM) so that I can conclude information to help in decision making.
 
   # Method
-  The method that I used in this project is Exploration Data Analysis (EDA) by analysing the data and visualize it to get better understanding. Features from the dataset that I used are order ID, customer ID, order that have been approved, and payment value.
+  The method I used in this project was Exploratory Data Analysis (EDA) by analyzing the data and visualizing it to gain a better understanding. The features of the dataset I use are order ID, customer ID, approved orders, and payment value.
 
   # Conclusion
   After analyzing the data, I can draw conclusions based on the results of the analysis to help answer the questions I raised.
