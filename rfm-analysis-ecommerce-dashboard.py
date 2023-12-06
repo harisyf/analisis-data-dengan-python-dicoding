@@ -10,7 +10,7 @@ sns.set(style='dark')
 def create_rfm_df(df):
     rfm_df = df.groupby(by="customer_id", as_index=False).agg({
     "order_approved_at": "max", # latest order date
-    "order_id": "nunique", # order count
+    "order_id": "count", # order count
     "payment_value": "sum" # total revenue sum
     })
     rfm_df.columns = ["customer_id", "max_order_approved_at", "frequency", "monetary"]
