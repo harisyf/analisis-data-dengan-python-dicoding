@@ -64,7 +64,7 @@ row0_space1, row0_1, row0_space2 = st.columns(
     (0.1, 3.5, 0.1)
 )
 
-row0_1.title("RFM Analysis on Brazilian E-Commerce Dashboard")
+row0_1.title("Brazilian E-Commerce RFM Analysis Dashboard")
 
 
 row1_space1, row1_1, row1_space2 = st.columns((0.1, 3.5, 0.1))
