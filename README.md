@@ -1,4 +1,4 @@
-# RFM Analysis In Brazilian E-Commerce
+# Brazilian E-Commerce RFM Analysis
 
 Hello and welcome to my RFM analysis project. This project used dataset that available on [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) website.  Feel free to explore my project. You can also visit the web app of this project dashboard in this [[link]](https://rfm-analysis-in-ecommerce-dashboard-haris.streamlit.app/). If you have any further discussion or suggestion you can reach me on:
 
