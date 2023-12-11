@@ -34,7 +34,7 @@ LinkedIn : [Haris Yafie](https://www.linkedin.com/in/haris-yafie/)
 
   1. With the RFM analysis that has been carried out, the results can be concluded:
       * Based on recency, the customer made a purchase some time ago but has not been active recently,
-      * based on frequency, customers only make one purchase and there are no repeat purchases,
+      * Based on frequency, there are few customers who made some repeat purchases with most customer made one purchase or no repeat purchase,
       * Based on the monetary side, customers tend to buy with a fairly high spending value.
   2. The distribution of customers who used e-commerce the last time they placed an order tends to be right skewed because the longest number of days a customer has not placed an order decreases, whereas most customers tend to use e-commerce to place an order between 0-300 days.
   3. The state with the most orders by customers is the SP state and the state with the fewest orders by users is the RR state.
